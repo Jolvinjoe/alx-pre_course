@@ -1,1 +1,5 @@
-git update branch
+git fetch upstream
+git merge upstream/master
+git checkout master
+git merge master
+git push origin master
